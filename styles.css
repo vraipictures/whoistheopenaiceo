@@ -12,6 +12,12 @@ main {
   height: 100vh; /* Center vertically on the viewport */
 }
 
+.gif-image {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Adjust spacing between player and image */
+}
+
 .content {
   text-align: center;
 }

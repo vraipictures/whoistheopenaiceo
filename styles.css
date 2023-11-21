@@ -21,14 +21,15 @@ main {
 
 .gif-image {
   width: auto; /* Allow the browser to adjust width */
-  height: 40px; /* Adjust the height of the GIF */
-  margin-right: 5px; /* Adjust spacing between player and image */
+  height: 50px; /* Adjust the height of the GIF */
+  margin-right: 10px; /* Adjust spacing between player and image */
 
 }
 
 .content {
   text-align: center;
-  padding: 5px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -36,12 +37,13 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   color: #888;
 }
 
 .spotifyPlayer {
   margin-top: 100px; /* Space between text and player */
+  padding: 10px;
   display: flex;
   justify-content: center;
 }

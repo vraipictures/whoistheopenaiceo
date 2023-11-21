@@ -13,10 +13,15 @@ main {
 }
 
 .gif-image {
-  width: 150px; /* Adjust width as needed */
+  width: 100px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
+  margin-left: 10px; /* Adjust spacing between player and image */
   margin-top: 20px; /* Adjust spacing between player and image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
 }
+
 
 .content {
   text-align: center;

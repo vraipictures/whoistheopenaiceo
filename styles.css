@@ -15,7 +15,7 @@ main {
 .text-with-gif {
       display: flex;
       align-items: center; /* Align items vertically */
-      justify-content: bottom; /* Align items horizontally */
+      justify-content: center; /* Align items horizontally */
     }
 
 

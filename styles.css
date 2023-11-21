@@ -15,8 +15,7 @@ main {
 .gif-image {
   width: 100px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
-  margin-left: 10px; /* Adjust spacing between player and image */
-  margin-top: 20px; /* Adjust spacing between player and image */
+  margin-left: 5px; /* Adjust spacing between player and image */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 

@@ -11,6 +11,7 @@ main {
   align-items: center;
   height: 100vh; /* Center vertically on the viewport */
 }
+
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -18,11 +19,11 @@ main {
   text-align: center;
 }
 
-.content-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.text-with-gif {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      justify-content: center; /* Align items horizontally */
+    }
 
 iframe {
   flex: 1;
@@ -30,7 +31,7 @@ iframe {
 
 .gif-image {
   width: auto; /* Allow the browser to adjust width */
-  height: 100px; /* Adjust the height of the GIF */
+  height: 50px; /* Adjust the height of the GIF */
   margin-right: 5px; /* Adjust spacing between player and image */
 
 }

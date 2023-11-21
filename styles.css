@@ -12,13 +12,6 @@ main {
   height: 100vh; /* Center vertically on the viewport */
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
 .text-with-gif {
       display: flex;
       align-items: center; /* Align items vertically */

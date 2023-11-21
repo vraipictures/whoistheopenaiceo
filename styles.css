@@ -11,16 +11,36 @@ main {
   align-items: center;
   height: 100vh; /* Center vertically on the viewport */
 }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  flex: 1;
+}
 
 .gif-image {
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 5px; /* Adjust spacing between player and image */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  width: auto; /* Allow the browser to adjust width */
+  height: 100px; /* Adjust the height of the GIF */
+  margin-left: 10px; /* Adjust spacing between player and image */
 
 }
 
+
+.gif-image {
+  width: auto; /* Allow the browser to adjust width */
+  height: 100px; /* Adjust the height of the GIF */
+  margin-left: 10px; /* Adjust spacing between player and image */
+}
 
 .content {
   text-align: center;

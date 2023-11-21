@@ -31,7 +31,7 @@ iframe {
 .gif-image {
   width: auto; /* Allow the browser to adjust width */
   height: 100px; /* Adjust the height of the GIF */
-  margin-left: 10px; /* Adjust spacing between player and image */
+  margin-right: 10px; /* Adjust spacing between player and image */
 
 }
 

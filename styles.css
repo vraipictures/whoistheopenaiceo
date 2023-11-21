@@ -28,20 +28,20 @@ main {
 
 .content {
   text-align: center;
+  padding: 5px;
 }
-
 
 h1 {
   font-size: 100px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   color: #888;
 }
 
 .spotifyPlayer {
-  margin-top: 50px; /* Space between text and player */
+  margin-top: 100px; /* Space between text and player */
   display: flex;
   justify-content: center;
 }

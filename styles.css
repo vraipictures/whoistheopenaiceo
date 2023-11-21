@@ -16,6 +16,7 @@ main {
       display: flex;
       align-items: center; /* Align items vertically */
       justify-content: center; /* Align items horizontally */
+      padding: 10px
     }
 
 

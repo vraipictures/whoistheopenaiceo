@@ -38,12 +38,12 @@ h1 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   color: #888;
 }
 
 .spotifyPlayer {
-  margin-top: 100px; /* Space between text and player */
+  margin-top: 30px; /* Space between text and player */
   padding: 10px;
   display: flex;
   justify-content: center;
